@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap"
+      rel="stylesheet"
+    />
+    <script src="assets/script.js" defer></script>
+    <title>Projeto intra-web</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Lista de Personagem</h1>
+    </header>
+
+    <forms class="search">
+      <input
+        type="text"
+        name="id"
+        id="nameOperador"
+        onkeydown="pesquisa(event)"
+      />
+      <button type="submit" onclick="scan(event)">Buscar</button>
+    </forms>
+
+    <main>
+      <section id="kaid" class="ativo">
+        <img
+          src="./assets/imagens/r6-operators-list-kaid.webp"
+          alt="Imagem do Operador Kaid"
+        />
+
+        <ul class="personagem">
+          <li>
+            <h2>Kaid</h2>
+          </li>
+          <li>
+            <strong>idade:56</strong>
+          </li>
+          <li>
+            <strong>Posição:Defensor</strong>
+          </li>
+        </ul>
+      </section>
+
+      <section id="smoke" class="ativo">
+        <img
+          src="./assets/imagens/r6-operators-list-smoke.webp"
+          alt="Imagem do Operador Smoke"
+        />
+
+        <ul class="personagem">
+          <li>
+            <h2>Smoke</h2>
+          </li>
+          <li>
+            <strong>idade:36</strong>
+          </li>
+          <li>
+            <strong>Posição:Defensor</strong>
+          </li>
+        </ul>
+      </section>
+
+      <section id="melusi" class="ativo">
+        <img
+          src="./assets/imagens/r6s-operator-list-melusi.webp"
+          alt="Imagem da Operadora Melusi"
+        />
+
+        <ul class="personagem">
+          <li>
+            <h2>Melusi</h2>
+          </li>
+          <li>
+            <strong>idade:32</strong>
+          </li>
+          <li>
+            <strong>Posição:Defensor</strong>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+        <h3>Feito por Lucas Justino</h3>
+      <a class="social" href="https://github.com/Lutinojustino" target="_blank"
+        ><img
+          src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"
+      /></a>
+    </footer>
+  </body>
+</html>
