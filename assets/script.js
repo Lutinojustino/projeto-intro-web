@@ -1,5 +1,3 @@
-// semana 1 e 2 projeto intro-web
-
 const nome1 = "Kaid".toUpperCase();
 const idade1 = 53;
 const bool1 = true;
@@ -15,19 +13,16 @@ const idade3 = 32;
 const bool3 = true;
 const array3 = ["Defensor", "Banshe", "Roamers"];
 
-// const mediaIdade = (idade1 + idade2 + idade3) / 3;
+const mediaIdade = (idade1 + idade2 + idade3) / 3;
 
-// const totalTrue = bool1 && bool2 && bool3;
+const totalTrue = bool1 && bool2 && bool3;
 
-// console.log(totalTrue);
-// console.log(mediaIdade);
-// console.log(
-//   `${nome1.toUpperCase()}\n${nome2.toUpperCase()}\n${nome3.toUpperCase()}`
-// );
+console.log(totalTrue);
+console.log(mediaIdade);
+console.log(
+  `${nome1.toUpperCase()}\n${nome2.toUpperCase()}\n${nome3.toUpperCase()}`
+);
 
-// fim da semana 1 e 2
-
-// inicio da 3 e 4
 const gameDefesa = [];
 
 const personagem1 = {
