@@ -38,7 +38,7 @@ input {
   width: 338px;
   height: 37px;
   display: flex;
-  background: slategray;
+  align-items: center;
 }
 
 button {
