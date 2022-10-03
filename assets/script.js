@@ -80,7 +80,7 @@ const pesquisa = (event) => {
     const personagens = (gameDefesa, namePer) => {
       let guardar = [];
       for (let i of gameDefesa) {
-        const namePer = val.value.toUpperCase();
+        const namePer = ((val.value.toUpperCase()).trim());
         if (i.nome === namePer) {
           guardar.push(i);
           nameOperador.value = "";
@@ -111,7 +111,7 @@ const scan = (event) => {
   const personagens = (gameDefesa, namePer) => {
     let guardar = [];
     for (let i of gameDefesa) {
-      const namePer = val.value.toUpperCase();
+      const namePer = ((val.value.toUpperCase()).trim());
       if (i.nome === namePer) {
         guardar.push(i);
         nameOperador.value = "";
